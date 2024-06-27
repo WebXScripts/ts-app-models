@@ -9,7 +9,7 @@ return new class extends Migration {
     {
         Schema::create('method_configs', function (Blueprint $table) {
             $table->id();
-            $table->enum('event', \App\Enums\Event::values());
+            $table->enum('event', ['on_client_join']);
             $table->string('method')
                 ->unique();
             $table->boolean('enabled');
