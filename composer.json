@@ -1,5 +1,7 @@
 {
-    "name": "webis/ts-app-models",
+    "name": "webxscripts/ts-app-models",
+    "version": "1.0",
+    "description": "Shared models for ts-apps applications.",
     "autoload": {
         "psr-4": {
             "Webis\\TsAppModels\\": "src/"
