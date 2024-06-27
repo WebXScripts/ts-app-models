@@ -1,0 +1,11 @@
+{
+    "name": "webis/ts-app-models",
+    "autoload": {
+        "psr-4": {
+            "Webis\\TsAppModels\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^11.13"
+    }
+}

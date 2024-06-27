@@ -1,0 +1,9 @@
+/vendor
+/.idea
+/.vscode
+/.vagrant
+/storage/logs
+/storage/bot_uid
+.phpunit.result.cache
+.env
+/database/database.sqlite
